@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <title>Slideshow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta name="description"
+          content="Slideshow">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 <div class="wrapper">
-    <div class="header">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Cities API</a></li>
-        </ul>
-
+    <div class="branding"><img height="100px" width="100px" src="https://images.unsplash.com/photo-1618170673691-dc505e1c6be4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="Internet png logo"></div>
+    <div class="mainMenu">
+        <menu>
+            <ul>
+                <li><a href="index.html">Home 1</a></li>
+                <li><a href="#">Home 2</a></li>
+                <li><a href="#">Nav 1</a></li>
+                <li><a href="#">Nav 2</a></li>
+                <li><a href="#">Nav 3</a></li>
+            </ul>
+        </menu>
     </div>
     <div class="content1">
         <div id="slideshows-example" data-component="slideshow">
@@ -31,8 +38,19 @@
         </div>
 
     </div>
-    <div class="content2">Content 2</div>
-    <div class="footer">Footer</div>
+    <div class="box heroImage">
+        <div class="overlay">
+            <h1>Abstract</h1>
+        </div>
+    </div>
+    <div id="boxes">
+        <div class="box1"><h2>Ocean 1</h2></div>
+        <div class="box2"><h2>Ocean 2</h2> </div>
+        <div class="box3"><h2>Ocean 3</h2></div>
+    </div>
+    <div class="box footer">
+        <footer style="background-color: ghostwhite">&copy; Kevin Ramos 2021</footer>
+    </div>
 </div>
 
 <script src="js/bundle.js"></script>

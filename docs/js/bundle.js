@@ -1,24 +1,25 @@
 /******/ (() => { // webpackBootstrap
-    var __webpack_exports__ = {};
-    /*!*************************!*\
-      !*** ./src/js/index.js ***!
-      \*************************/
-    var slideshows = document.querySelectorAll('[data-component="slideshow"]');
-    slideshows.forEach(initSlideShow);
+/******/ 	var __webpack_modules__ = ({
 
-    function initSlideShow(slideshow) {
-        var slides = document.querySelectorAll("#".concat(slideshow.id, " [role=\"list\"] .slide"));
-        var index = 0;
-        var time = 5000;
-        slides[index].classList.add('active');
-        setInterval(function () {
-            slides[index].classList.remove('active');
-            index += 1;
-            if (index === slides.length) index = 0;
-            slides[index].classList.add('active');
-            console.log(slides);
-        }, time);
-    }
-    /******/ })()
+/***/ "./src/js/index.js":
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/eslint-loader/dist/cjs.js):\nError: Cannot find module 'eslint'\nRequire stack:\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\eslint-loader\\dist\\getOptions.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\eslint-loader\\dist\\index.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\eslint-loader\\dist\\cjs.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\loader-runner\\lib\\loadLoader.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\loader-runner\\lib\\LoaderRunner.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack\\lib\\NormalModule.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack\\lib\\NormalModuleFactory.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack\\lib\\Compiler.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack\\lib\\webpack.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack\\lib\\index.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack-cli\\lib\\webpack-cli.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack-cli\\lib\\bootstrap.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack-cli\\bin\\cli.js\n- C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\webpack\\bin\\webpack.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:725:27)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\v8-compile-cache\\v8-compile-cache.js:159:20)\n    at getOptions (C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\eslint-loader\\dist\\getOptions.js:28:7)\n    at Object.loader (C:\\Users\\Kevin R\\WebstormProjects\\ESLint-Babel-Slideshow\\node_modules\\eslint-loader\\dist\\index.js:17:43)");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/js/index.js"]();
+/******/ 	
+/******/ })()
 ;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly91bnRpdGxlZDEzLy4vc3JjL2pzL2luZGV4LmpzIl0sIm5hbWVzIjpbInNsaWRlc2hvd3MiLCJkb2N1bWVudCIsInF1ZXJ5U2VsZWN0b3JBbGwiLCJmb3JFYWNoIiwiaW5pdFNsaWRlU2hvdyIsInNsaWRlc2hvdyIsInNsaWRlcyIsImlkIiwiaW5kZXgiLCJ0aW1lIiwiY2xhc3NMaXN0IiwiYWRkIiwic2V0SW50ZXJ2YWwiLCJyZW1vdmUiLCJsZW5ndGgiLCJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiOzs7OztBQUFBLElBQU1BLFVBQVUsR0FBR0MsUUFBUSxDQUFDQyxnQkFBVCxDQUEwQiw4QkFBMUIsQ0FBbkI7QUFDQUYsVUFBVSxDQUFDRyxPQUFYLENBQW1CQyxhQUFuQjs7QUFDQSxTQUFTQSxhQUFULENBQXVCQyxTQUF2QixFQUFrQztBQUNoQyxNQUFNQyxNQUFNLEdBQUdMLFFBQVEsQ0FBQ0MsZ0JBQVQsWUFBOEJHLFNBQVMsQ0FBQ0UsRUFBeEMsNkJBQWY7QUFDQSxNQUFJQyxLQUFLLEdBQUcsQ0FBWjtBQUNBLE1BQU1DLElBQUksR0FBRyxJQUFiO0FBQ0FILFFBQU0sQ0FBQ0UsS0FBRCxDQUFOLENBQWNFLFNBQWQsQ0FBd0JDLEdBQXhCLENBQTRCLFFBQTVCO0FBQ0FDLGFBQVcsQ0FBQyxZQUFNO0FBQ2hCTixVQUFNLENBQUNFLEtBQUQsQ0FBTixDQUFjRSxTQUFkLENBQXdCRyxNQUF4QixDQUErQixRQUEvQjtBQUdBTCxTQUFLLElBQUksQ0FBVDtBQUNBLFFBQUlBLEtBQUssS0FBS0YsTUFBTSxDQUFDUSxNQUFyQixFQUE2Qk4sS0FBSyxHQUFHLENBQVI7QUFDN0JGLFVBQU0sQ0FBQ0UsS0FBRCxDQUFOLENBQWNFLFNBQWQsQ0FBd0JDLEdBQXhCLENBQTRCLFFBQTVCO0FBQ0FJLFdBQU8sQ0FBQ0MsR0FBUixDQUFZVixNQUFaO0FBQ0QsR0FSVSxFQVFSRyxJQVJRLENBQVg7QUFTRCxDIiwiZmlsZSI6ImpzL2J1bmRsZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IHNsaWRlc2hvd3MgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdbZGF0YS1jb21wb25lbnQ9XCJzbGlkZXNob3dcIl0nKTtcbnNsaWRlc2hvd3MuZm9yRWFjaChpbml0U2xpZGVTaG93KTtcbmZ1bmN0aW9uIGluaXRTbGlkZVNob3coc2xpZGVzaG93KSB7XG4gIGNvbnN0IHNsaWRlcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoYCMke3NsaWRlc2hvdy5pZH0gW3JvbGU9XCJsaXN0XCJdIC5zbGlkZWApO1xuICBsZXQgaW5kZXggPSAwO1xuICBjb25zdCB0aW1lID0gNTAwMDtcbiAgc2xpZGVzW2luZGV4XS5jbGFzc0xpc3QuYWRkKCdhY3RpdmUnKTtcbiAgc2V0SW50ZXJ2YWwoKCkgPT4ge1xuICAgIHNsaWRlc1tpbmRleF0uY2xhc3NMaXN0LnJlbW92ZSgnYWN0aXZlJyk7XG5cblxuICAgIGluZGV4ICs9IDE7XG4gICAgaWYgKGluZGV4ID09PSBzbGlkZXMubGVuZ3RoKSBpbmRleCA9IDA7XG4gICAgc2xpZGVzW2luZGV4XS5jbGFzc0xpc3QuYWRkKCdhY3RpdmUnKTtcbiAgICBjb25zb2xlLmxvZyhzbGlkZXMpO1xuICB9LCB0aW1lKTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly91bnRpdGxlZDEzL3dlYnBhY2svc3RhcnR1cCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7O1VBQUE7VUFDQTtVQUNBO1VBQ0E7VUFDQSIsImZpbGUiOiJqcy9idW5kbGUuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBzdGFydHVwXG4vLyBMb2FkIGVudHJ5IG1vZHVsZSBhbmQgcmV0dXJuIGV4cG9ydHNcbi8vIFRoaXMgZW50cnkgbW9kdWxlIGRvZXNuJ3QgdGVsbCBhYm91dCBpdCdzIHRvcC1sZXZlbCBkZWNsYXJhdGlvbnMgc28gaXQgY2FuJ3QgYmUgaW5saW5lZFxudmFyIF9fd2VicGFja19leHBvcnRzX18gPSB7fTtcbl9fd2VicGFja19tb2R1bGVzX19bXCIuL3NyYy9qcy9pbmRleC5qc1wiXSgpO1xuIl0sInNvdXJjZVJvb3QiOiIifQ==
